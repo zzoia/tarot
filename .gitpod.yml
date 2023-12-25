@@ -9,5 +9,9 @@ image:
 
 tasks:
   - init: pip install -r requirements.txt
+  - name: Setup Git
+    init: git config lfs.https://github.com/zzoia/tarot.git/info/lfs.locksverify false
+  # - name: Pull large objects
+
 
 
